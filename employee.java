@@ -18,7 +18,7 @@ public class employee {
         Info[] infos = {
             new Info("a", 23),
             new Info("b", 222),
-            new Info("c", 333)   // added third employee
+            new Info("c", 333)   
         };
 
         System.out.println("Enter your ID:");
