@@ -30,7 +30,8 @@ maa.add(3);
 maa.add(2);
 HashMap <Integer,Integer> counter=  new HashMap<>();
 for(int number: maa){
-    int tiktok = counter.getOrDefault(number,0);
+    int tiktok =
+     counter.getOrDefault(number,0);
     counter.put(number,tiktok +1);
 }
 System.out.println(counter);
@@ -50,15 +51,39 @@ for(int cute : blow){
      }
      boob.put(cute ,oldCount+1);
 }
- ArrayList <Integer> cum= new ArrayList<>();
-cum.add(3);
-cum.add(8);
-cum.add(4);
-cum.add(6);
-int target =10;
-HashMap<Integer,Boolean> wwe = new HashMap<>(); 
-for(int needed : cum){
-     int c = wwe.getOrDefault(needed,);
+ArrayList<Integer> numbers = new ArrayList<>();
+numbers.add(3);
+numbers.add(8);
+numbers.add(4);
+numbers.add(6);
+
+int target = 10;
+HashMap<Integer, Boolean> seenNumbers = new HashMap<>();
+
+for(int number : numbers){
+    if(seenNumbers.getOrDefault(number, false)){
+        int complement = target - number;
+        System.out.println("wtever i dont know" + number + complement);
+        break;
+    }
+    seenNumbers.put(number,true);
 }
-   }
-}
+ArrayList<Integer> tit = new ArrayList<>();
+tit.add(4);
+tit.add(5);
+tit.add(4);
+tit.add(2);
+tit.add(2);
+ HashMap<Integer,Integer> wow = new HashMap<>();
+  for(int cup : tit){
+    int tac =wow.getOrDefault(cup, 0);
+          wow.put(cup ,tac +1);
+  }
+    System.out.println(wow);
+    for(int num : tit){
+    if(wow.getOrDefault(num, 0)==1){
+     System.out.println("the unique number is" + num);
+    }
+  }
+    }
+  }
